@@ -1,3 +1,5 @@
+// ESERCIZIO DEI NUMERI MAGGIORI O UGUALE
+
 /* const number1 = Number(prompt("inserisci il primo numero:"))
 const number2 = Number(prompt("inserisci il secondo numero:"))
 
@@ -10,6 +12,8 @@ if (number1 > number2) {
 } */
 
 
+
+// ESEMPIO CON 3 NUMERI
 
 /* const number1 = Number(prompt("primo numero"))
 const number2 = Number(prompt("secondo numero"))
@@ -29,7 +33,7 @@ if (number1 > number2 && number1 > number3) {
 
 
 
-// somma con for
+// ESERCIZIO CON SOMMA FOR
 
 /* let somma = 0
 
@@ -40,9 +44,9 @@ for (let i = 0; i < 5; i++) {
 console.log("la somma totale è ", somma); */
 
 
-// somma con while
+// ESERCIZIO CON SOMMA WHILE
 
-let counter = 0
+/* let counter = 0
 let sommaWhile = 0
 
 while (counter < 5) {
@@ -51,10 +55,23 @@ while (counter < 5) {
     counter ++;
 }
 
-console.log("la somma dei numeri è " + sommaWhile);
+console.log("la somma dei numeri è " + sommaWhile); */
 
 
 
+// ESERCIZIO CON NUMERO POSITIVO, NEGATIVO O ZERO
+
+const number = Number(prompt("Inserisci un numero:"))
+
+if (number > 0) {
+    console.log("il numero maggiore è positivo");
+
+} else if (number < 0) {
+    console.log("il numero maggiore è negativo");
+
+} else {
+    console.log("Il numero è uguale a zero");
+}
 
 
 
