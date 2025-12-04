@@ -11,7 +11,7 @@ if (number1 > number2) {
 
 
 
-const number1 = Number(prompt("primo numero"))
+/* const number1 = Number(prompt("primo numero"))
 const number2 = Number(prompt("secondo numero"))
 const number3 = Number(prompt("terzo numero"))
 
@@ -23,7 +23,19 @@ if (number1 > number2 && number1 > number3) {
 
 } else {
     console.log("il numero maggiore è", number3);
-} 
+}  */
+
+
+
+
+let somma = 0
+
+for (let i = 0; i < 5; i++) {
+    const number = Number( prompt("inserisci il numero:"))
+    somma += number
+}
+console.log("la somma totale è:", somma);
+
 
 
 
