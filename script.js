@@ -28,13 +28,37 @@ if (number1 > number2 && number1 > number3) {
 
 
 
-let somma = 0
+
+// somma con for
+
+/* let somma = 0
 
 for (let i = 0; i < 5; i++) {
-    const number = Number( prompt("inserisci il numero:"))
-    somma += number
+    const number = Number( prompt("inserisci il numero:"));
+    somma += number;
 }
-console.log("la somma totale è:", somma);
+console.log("la somma totale è ", somma); */
+
+
+// somma con while
+
+let counter = 0
+let sommaWhile = 0
+
+while (counter < 5) {
+    const number = parseInt(prompt("inserisci il numero"));
+    sommaWhile += number;
+    counter ++;
+}
+
+console.log("la somma dei numeri è " + sommaWhile);
+
+
+
+
+
+
+
 
 
 
